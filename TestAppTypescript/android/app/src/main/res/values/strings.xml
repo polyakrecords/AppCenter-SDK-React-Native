@@ -1,5 +1,4 @@
-<resources>    
-    <string name="app_name">TestApp</string>
+<resources>
+    <string name="app_name">TestAppTypescript</string>
     <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true">ALWAYS_SEND</string>
-    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true">ASK_JAVASCRIPT</string>
 </resources>

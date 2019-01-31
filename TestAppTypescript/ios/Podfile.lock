@@ -1,32 +1,49 @@
 PODS:
-  - AppCenter/Analytics (1.11.0):
+  - AppCenter/Analytics (1.13.0):
     - AppCenter/Core
-  - AppCenter/Core (1.11.0)
-  - AppCenter/Crashes (1.11.0):
+  - AppCenter/Core (1.13.0)
+  - AppCenter/Crashes (1.13.0):
     - AppCenter/Core
-  - AppCenter/Push (1.11.0):
+  - AppCenter/Push (1.13.0):
     - AppCenter/Core
-  - AppCenterReactNativeShared (1.10.0):
-    - AppCenter/Core (= 1.11.0)
+  - AppCenterReactNativeShared (1.12.0):
+    - AppCenter/Core (= 1.13.0)
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - react-native-image-picker (0.28.0):
+    - React
+  - React/Core (0.11.0)
+  - RNFS (2.13.3):
+    - React
 
 DEPENDENCIES:
-  - AppCenter/Analytics (~> 1.11.0)
-  - AppCenter/Crashes (~> 1.11.0)
-  - AppCenter/Push (~> 1.11.0)
+  - AppCenter/Analytics (~> 1.13.0)
+  - AppCenter/Crashes (~> 1.13.0)
+  - AppCenter/Push (~> 1.13.0)
   - AppCenterReactNativeShared (from `../../AppCenterReactNativeShared/Products/`)
+  - react-native-image-picker (from `../node_modules/react-native-image-picker`)
+  - RNFS (from `../node_modules/react-native-fs`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AppCenter
+    - React
 
 EXTERNAL SOURCES:
   AppCenterReactNativeShared:
     :path: "../../AppCenterReactNativeShared/Products/"
+  react-native-image-picker:
+    :path: "../node_modules/react-native-image-picker"
+  RNFS:
+    :path: "../node_modules/react-native-fs"
 
 SPEC CHECKSUMS:
-  AppCenter: 3bccf8d733e337d0db574dd4cb0e33ab9637b7f2
-  AppCenterReactNativeShared: 41f27277ae74b61b14bb28ccd0d0badd7739fbdf
+  AppCenter: a70408f15de23f925001bfc7b7473094a009a4eb
+  AppCenterReactNativeShared: 3b388e3315b4ad21ecbe55eb449eb1b454b33f69
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+  react-native-image-picker: f42de90075c5b1af53417af927631d909a1a746e
+  RNFS: bbb1a64eb245763daf34aea86f97c97c4e85f74c
 
-PODFILE CHECKSUM: 6461eb426593e0d4a455b118d8b5f40fdcaf9ef0
+PODFILE CHECKSUM: ead3ec07f239999072b46328ca9a8366d60ad28b
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.5.2

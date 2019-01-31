@@ -6,14 +6,18 @@ target 'TestAppTypescript' do
   # use_frameworks!
 
   # Pods for TestAppTypescript
-  pod 'AppCenter/Push', '~> 1.11.0'
-  pod 'AppCenter/Crashes', '~> 1.11.0'
-  pod 'AppCenter/Analytics', '~> 1.11.0'
+  pod 'AppCenter/Push', '~> 1.13.0'
+  pod 'AppCenter/Crashes', '~> 1.13.0'
+  pod 'AppCenter/Analytics', '~> 1.13.0'
   pod 'AppCenterReactNativeShared', :path => '../../AppCenterReactNativeShared/Products/'
 
   
 
   platform :ios, '9.0'
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+  pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
   target 'TestAppTypescriptTests' do
     inherit! :search_paths
     # Pods for testing
